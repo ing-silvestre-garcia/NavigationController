@@ -17,7 +17,7 @@
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="home">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -27,6 +27,7 @@
                                 <state key="normal" title="Pantalla Azul"/>
                                 <connections>
                                     <action selector="btn1Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gj0-ju-hen"/>
+                                    <segue destination="rmw-Ve-KAi" kind="push" id="feo-rf-erG"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rnu-gx-c76">
@@ -35,16 +36,13 @@
                                 <state key="normal" title="Pantalla Roja"/>
                                 <connections>
                                     <action selector="btn2Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x81-Dk-T0q"/>
+                                    <segue destination="dxp-ul-M1k" kind="push" id="64p-Yb-jVV"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="PQj-VM-NVU"/>
-                    <connections>
-                        <outlet property="btn1Pressed" destination="jn3-1K-aAY" id="zxu-et-Q4G"/>
-                        <outlet property="btn2Pressed" destination="Rnu-gx-c76" id="K3n-6h-V0q"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -63,6 +61,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="kDF-VE-wox"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="73Q-wE-i2Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -81,6 +80,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Pnc-y0-u7m"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Ui-Rw-tbu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
