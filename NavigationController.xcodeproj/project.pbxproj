@@ -15,6 +15,8 @@
 		D760CF9D1F982CD100A45E9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D760CF9B1F982CD100A45E9B /* LaunchScreen.storyboard */; };
 		D760CFA81F982CD100A45E9B /* NavigationControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D760CFA71F982CD100A45E9B /* NavigationControllerTests.m */; };
 		D760CFB31F982CD100A45E9B /* NavigationControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D760CFB21F982CD100A45E9B /* NavigationControllerUITests.m */; };
+		D760CFC41F98312100A45E9B /* FirstView.m in Sources */ = {isa = PBXBuildFile; fileRef = D760CFC31F98312100A45E9B /* FirstView.m */; };
+		D760CFC71F98313A00A45E9B /* SecondView.m in Sources */ = {isa = PBXBuildFile; fileRef = D760CFC61F98313A00A45E9B /* SecondView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		D760CFAE1F982CD100A45E9B /* NavigationControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D760CFB21F982CD100A45E9B /* NavigationControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationControllerUITests.m; sourceTree = "<group>"; };
 		D760CFB41F982CD100A45E9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D760CFC21F98312100A45E9B /* FirstView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstView.h; sourceTree = "<group>"; };
+		D760CFC31F98312100A45E9B /* FirstView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstView.m; sourceTree = "<group>"; };
+		D760CFC51F98313A00A45E9B /* SecondView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondView.h; sourceTree = "<group>"; };
+		D760CFC61F98313A00A45E9B /* SecondView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +158,10 @@
 			children = (
 				D760CF931F982CD000A45E9B /* Home.h */,
 				D760CF941F982CD000A45E9B /* Home.m */,
+				D760CFC21F98312100A45E9B /* FirstView.h */,
+				D760CFC31F98312100A45E9B /* FirstView.m */,
+				D760CFC51F98313A00A45E9B /* SecondView.h */,
+				D760CFC61F98313A00A45E9B /* SecondView.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -290,7 +300,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D760CF951F982CD000A45E9B /* Home.m in Sources */,
+				D760CFC41F98312100A45E9B /* FirstView.m in Sources */,
 				D760CF921F982CD000A45E9B /* AppDelegate.m in Sources */,
+				D760CFC71F98313A00A45E9B /* SecondView.m in Sources */,
 				D760CF8F1F982CD000A45E9B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
