@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		D760CF8F1F982CD000A45E9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D760CF8E1F982CD000A45E9B /* main.m */; };
 		D760CF921F982CD000A45E9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D760CF911F982CD000A45E9B /* AppDelegate.m */; };
-		D760CF951F982CD000A45E9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D760CF941F982CD000A45E9B /* ViewController.m */; };
+		D760CF951F982CD000A45E9B /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = D760CF941F982CD000A45E9B /* Home.m */; };
 		D760CF981F982CD100A45E9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D760CF961F982CD100A45E9B /* Main.storyboard */; };
 		D760CF9A1F982CD100A45E9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D760CF991F982CD100A45E9B /* Assets.xcassets */; };
 		D760CF9D1F982CD100A45E9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D760CF9B1F982CD100A45E9B /* LaunchScreen.storyboard */; };
@@ -39,8 +39,8 @@
 		D760CF8E1F982CD000A45E9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D760CF901F982CD000A45E9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D760CF911F982CD000A45E9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D760CF931F982CD000A45E9B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D760CF941F982CD000A45E9B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D760CF931F982CD000A45E9B /* Home.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		D760CF941F982CD000A45E9B /* Home.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
 		D760CF971F982CD100A45E9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D760CF991F982CD100A45E9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D760CF9C1F982CD100A45E9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,10 +101,8 @@
 		D760CF8C1F982CD000A45E9B /* NavigationController */ = {
 			isa = PBXGroup;
 			children = (
-				D760CF901F982CD000A45E9B /* AppDelegate.h */,
-				D760CF911F982CD000A45E9B /* AppDelegate.m */,
-				D760CF931F982CD000A45E9B /* ViewController.h */,
-				D760CF941F982CD000A45E9B /* ViewController.m */,
+				D760CFC01F982DF100A45E9B /* Main */,
+				D760CFC11F982DFB00A45E9B /* Controller */,
 				D760CF961F982CD100A45E9B /* Main.storyboard */,
 				D760CF991F982CD100A45E9B /* Assets.xcassets */,
 				D760CF9B1F982CD100A45E9B /* LaunchScreen.storyboard */,
@@ -138,6 +136,24 @@
 				D760CFB41F982CD100A45E9B /* Info.plist */,
 			);
 			path = NavigationControllerUITests;
+			sourceTree = "<group>";
+		};
+		D760CFC01F982DF100A45E9B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D760CF901F982CD000A45E9B /* AppDelegate.h */,
+				D760CF911F982CD000A45E9B /* AppDelegate.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		D760CFC11F982DFB00A45E9B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D760CF931F982CD000A45E9B /* Home.h */,
+				D760CF941F982CD000A45E9B /* Home.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,7 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D760CF951F982CD000A45E9B /* ViewController.m in Sources */,
+				D760CF951F982CD000A45E9B /* Home.m in Sources */,
 				D760CF921F982CD000A45E9B /* AppDelegate.m in Sources */,
 				D760CF8F1F982CD000A45E9B /* main.m in Sources */,
 			);
